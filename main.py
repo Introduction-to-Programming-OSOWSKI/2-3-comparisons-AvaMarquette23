@@ -15,16 +15,12 @@ def equalTo(x,y):
     else:
         return False
 def greaterOrEqual(x,y):
-    if  x==y:
-        return True
-    elif x>y:
+    if  x>=y:
         return True
     else:
         return False
 def lessOrEqual(x,y):
-    if x==y:
-        return True
-    elif x<y:
+    if x<=y:
         return True
     else:
         return False
